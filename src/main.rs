@@ -8,20 +8,15 @@ use serde_yaml;
 #[derive(Debug, serde::Serialize, serde::Deserialize)]
 pub struct Relation {
 
-    //#[serde(rename = "unit1")]
     unit1: String,
-    //#[serde(rename = "unit2")]
     unit2: String,
-    //#[serde(rename = "equation")]
     equation: String
 }
 
 #[derive(Debug, serde::Serialize, serde::Deserialize)]
 pub struct  Fields{
 
-    //#[serde(rename = "field_name")]
     field_name: String,
-    //#[serde(rename = "relations")]
     relations: Vec<Relation>,
 
 }
