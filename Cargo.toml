@@ -1,0 +1,20 @@
+[package]
+name = "rust_unit_converter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+#[lib]
+
+
+[dependencies]
+
+clap = "4.4.6"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_yaml = "0.9.25"
+
+#clap = {path = "/home/yatata/Software/Rust Crates/clap-4.4.4", features = ["derive"] }
+#serde = {path = "/home/yatata/Software/Rust Crates/serde-1.0.188", features = ["derive"]}
+#serde_yaml = {path = "/home/yatata/Software/Rust Crates/serde_yaml-0.9.25"}
