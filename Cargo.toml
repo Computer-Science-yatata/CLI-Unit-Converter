@@ -11,10 +11,7 @@ edition = "2021"
 
 [dependencies]
 
-clap = "4.4.6"
-serde = { version = "1.0.188", features = ["derive"] }
-serde_yaml = "0.9.25"
-
-#clap = {path = "/home/yatata/Software/Rust Crates/clap-4.4.4", features = ["derive"] }
-#serde = {path = "/home/yatata/Software/Rust Crates/serde-1.0.188", features = ["derive"]}
-#serde_yaml = {path = "/home/yatata/Software/Rust Crates/serde_yaml-0.9.25"}
+clap = "*"
+serde = { version = "*", features = ["derive"] }
+serde_yaml = "*"
+evalexpr = "*"
