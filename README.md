@@ -7,7 +7,9 @@ Each convertion is stored in .yaml file for customization and scalability purpos
 # Usage
 
 rust_unit_converter --help
+
 rust_unit_converter convert --field_name <field_name> --unit1 <unit1> --unit2 <unit2>
+
 cargo run -- convert --field_name <field_name> --unit1 <unit1> --unit2 <unit2>
 
 Check [evalexpr](https://docs.rs/evalexpr/latest/evalexpr/) crate for supported operations
